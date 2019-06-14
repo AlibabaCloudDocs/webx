@@ -18,7 +18,7 @@ eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/cli/
 wpctl configure --access-key-id "$ALICLOUD_ACCESS_KEY" --access-key-secret "$ALICLOUD_SECRET_KEY" --region "$ALICLOUD_REGION"  --profile demo
 ```
 
-**说明：** Web+现支持的地域有华北2（北京）、华北3（张家口）、华东2（上海）和华南1（深圳）。
+**说明：** Web+现支持的地域有华北2（北京）、华北3（张家口）、华东1（杭州）、华东2（上海）和华南1（深圳）。
 
 ## 步骤三：下载Jenkins启动模版 {#section_9km_i3y_0en .section}
 
@@ -80,5 +80,5 @@ wpctl env:exec WebPlusJenkinsDemoEnv "cat /home/admin/.jenkins/secrets/initialAd
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/221972/156043130748828_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/221972/156048093348828_zh-CN.jpg)
 
