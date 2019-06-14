@@ -41,5 +41,5 @@ Web应用托管服务（Web App Service，简称Web+）是一个用来构建和�
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/160301/156044318946741_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/160301/156048077846741_zh-CN.jpg)
 
