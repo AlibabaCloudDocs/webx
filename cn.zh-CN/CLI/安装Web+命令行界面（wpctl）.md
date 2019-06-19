@@ -34,5 +34,5 @@ eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/cli/
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161244/156044310348830_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161244/156048102648830_zh-CN.jpg)
 
