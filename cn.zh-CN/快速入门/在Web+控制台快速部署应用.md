@@ -4,7 +4,7 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 
 ## 前提条件 {#section_6sq_wht_uma .section}
 
--   [开通Web+服务](../../../../cn.zh-CN/准备工作/开通相关服务并授权.md#section_e7m_lmj_c0l)。
+-   [开通Web+服务](../../../../cn.zh-CN/准备工作/开通相关服务并授权.md#section_e7m_lmj_c0l)
 
 ## 步骤一：创建应用并部署 {#section_lvf_s28_gp1 .section}
 
@@ -16,7 +16,7 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**新建**。
 3.  在**应用基本信息**页面设置应用基本信息，设置完成后单击**下一步**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215656849170_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215726849170_zh-CN.png)
 
     |配置|说明|
     |--|--|
@@ -26,7 +26,7 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 
 4.  在**部署环境信息**页面设置环境和部署包信息，此处以Web+提供的样例程序作为部署包，完成设置后单击**完成创建**，然后在弹出的**提示**对话框中单击**确认**完成部署环境的创建。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215656849172_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215726849172_zh-CN.png)
 
     |配置|说明|
     |--|--|
@@ -41,10 +41,10 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
     -   单击**查看该应用**或**完成创建**可进入**应用详情**页面。
     -   单击**查看部署包版本**可进入部署包版本管理页面。
     -   单击**查看部署环境日志**可进入环境变更事件页面。
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215656849173_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215726949173_zh-CN.png)
 
 
-## 访问应用首页 {#section_ikl_3o1_utr .section}
+## 步骤二：访问应用首页 {#section_ikl_3o1_utr .section}
 
 创建应用及部署环境之后，您可以进入[Web+控制台](https://webplus.console.aliyun.com)中的部署环境的**概览**页面查看应用在该部署环境内的访问地址。
 
@@ -56,10 +56,10 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 3.  单击部署环境名称进入部署环境**概览**页面。
 4.  当应用的运行状态为**运行中**时，您可单击**访问地址**右侧的链接地址，进入应用首页查看应用。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215656950763_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215726950763_zh-CN.png)
 
 
-## 删除应用 {#section_b7l_47j_4g1 .section}
+## 步骤三：删除应用 {#section_b7l_47j_4g1 .section}
 
 删除应用前必须先释放应用内的所有部署环境。当您释放部署环境后，部署环境中的ECS、SLB等资源将会被释放进而终止相应资源的计费。
 
@@ -69,7 +69,7 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 
         **说明：** 进入应用详情页后一般默认是在**部署环境管理**页面，若不在**部署环境管理**页面，请在应用详情页面的左侧导航栏单击**部署环境管理**。
 
-    3.  选择一个未释放的环境，在环境卡片右上角单击 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/159334/156215656946681_zh-CN.png) ，然后在下拉列表中单击**释放** 。
+    3.  选择一个未释放的环境，在环境卡片右上角单击 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/159334/156215726946681_zh-CN.png) ，然后在下拉列表中单击**释放** 。
     4.  在**确定释放部署环境**对话框内输入要释放的环境名称，然后单击**确定**。
     5.  如果一个应用部署在多个环境内，重复上面步骤完成应用内的所有环境的释放操作。
 2.  返回应用的**部署环境管理**页面，单击页面右上角的**删除**，在**确定删除应用**对话框中单击**确认**完成应用的删除。
@@ -86,5 +86,5 @@ Web+是一个用来构建和部署应用的PaaS平台，在Web+上，您可以�
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215656948521_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/217610/156215726948521_zh-CN.jpg)
 
