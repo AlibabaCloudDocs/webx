@@ -1,6 +1,6 @@
 # 配置云数据库RDS {#concept_1095990 .concept}
 
-Web+提供了与云数据库RDS的集成以帮助您将RDS实例添加到Web+, 您可以把MySQL、PostgreSQL、SQL Server、MariaDB、PPAS数据库添加至您的环境。当您将数据库实例添加到您的环境时，Web+会通过设置数据库类型、版本、系列、存储类型、交换机、规格、存储空间、用户名和密码等属性来为应用提供连接信息。
+Web+提供了对云数据库RDS资源的编排功能，通过配置数据库类型、数据库版本和存储类型等参数可实现将RDS实例添加至您的部署环境。
 
 ## 背景信息 {#section_476_l52_53j .section}
 
@@ -34,10 +34,7 @@ Web+提供了与云数据库RDS的集成以帮助您将RDS实例添加到Web+, �
 
 1.  登录[Web+控制台](https://webplus.console.aliyun.com)。
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**查看全部**。
-3.  在**应用及部署环境**页面单击所选应用最左侧的 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163212/156325621847117_zh-CN.png)展开应用所关联的环境列表。
-
-    **说明：** 在**概览**页会罗列4个最近更新的部署环境，如您想管理的环境在该列表中，可以直接单击环境名称进入环境管理控制台。
-
+3.  在**应用及部署环境**页面单击所选应用最左侧的 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163212/156334833147117_zh-CN.png)展开应用所关联的环境列表。
 4.  选择并单击部署环境名称进入部署环境**概览**页面。
 5.  在左侧导航栏单击**配置**进入环境配置页面。
 6.  在展开的配置页面上，选择资源分类下的**云数据库RDS**并进行配置。
@@ -62,7 +59,7 @@ Web+提供了与云数据库RDS的集成以帮助您将RDS实例添加到Web+, �
 
 数据库类型及版本
 
-RDS支持创建MySQL、SQL Server、PostgreSQL、PPAS和MariaDB TX类型数据库引擎，每种类型数据库引擎都有若干种版本可以选择，您可根据自己需要来选取相应数据库引擎。关于各个引擎的介绍，可参见[数据库引擎](https://help.aliyun.com/document_detail/26174.html)
+RDS支持创建MySQL、SQL Server、PostgreSQL、PPAS和MariaDB TX类型数据库引擎，每种类型数据库引擎都有若干种版本可以选择，您可根据自己需要来选取相应数据库引擎。关于各个引擎的介绍，可参见[数据库引擎](https://help.aliyun.com/document_detail/26174.html)。
 
 系列
 
@@ -108,23 +105,44 @@ CLI配置RDS需要通过Wpfile文件来进行，您可以通过wpctl dump命令�
 
 Wpfile文件中RDS配置项归类在resources.rds下，配置项含义为：
 
-|分类|配置项|有效值|默认值|描述|
-|--|---|---|---|--|
-|resources.rds|enable|true / false|false|是否启用RDS|
+|配置项|有效值|默认值|描述|
+|---|---|---|--|
+|enable|true / false|false|是否启用RDS|
 |imported|true / false|false|是否使用已有RDS|
 |rdsId|有效的RDS实例ID|无|RDS实例ID。在导入已有RDS场景下，需要提供此配置项来指明导入的RDS。|
 |zoneId|有效的RDS可用区ID|无|RDS可用区ID。可通过RDS的DescribeRegions接口来获取有效的RDS可用区。|
 |VSwitches|交换机ID|无|指定RDS所在可用区的交换机。|
 |engine|数据库类型，取值：MySQL ；SQLServer ；PostgreSQL ；PPAS ；MariaDB 。|无|数据库类型|
-|engineVersion|数据库版本，取值：MySQL： 5.5/5.6/5.7/8.0 ；SQL Server：2008r2/2012/2012\_ent\_ha/2012\_std\_ha/2012\_web/2016\_ent\_ha/2016\_std\_ha/2016\_web/2017\_ent ；PostgreSQL： 9.4/10.0 ；PPAS： 9.3/10.0 ；MariaDB： 10.3 。|无|数据库版本|
-|storageType|实例存储类型，取值：local\_ssd / ephemeral\_ssd ：本地SSD盘（推荐）；cloud\_ssd ：SSD云盘；cloud\_essd ：ESSD云盘。|无|存储类型|
+|engineVersion|数据库版本，取值： -   MySQL：5.5/5.6/5.7/8.0
+-   SQL Server：2008r2/2012/2012\_ent\_ha/2012\_std\_ha/2012\_web/2016\_ent\_ha/2016\_std\_ha/2016\_web/2017\_ent
+-   PostgreSQL：9.4/10.0
+-   PPAS：9.3/10.0
+-   MariaDB：10.3
+
+ |无|数据库版本|
+|storageType|实例存储类型，取值： -   local\_ssd/ephemeral\_ssd：本地SSD盘（推荐）
+-   cloud\_ssd：SSD云盘
+-   cloud\_essd：ESSD云盘
+
+ |无|存储类型|
 |storageSize|整数|100|存储大小，单位G|
 |dbInstanceClass|有效的实例规格|无|实例规格，有效值详见 实例规格表 。|
 |databaseName|字符串|webplus|数据库名|
-|characterSetName|字符集，取值：MySQL/MariaDB实例： utf8、gbk、latin1、utf8mb4 ；SQL Server实例：Chinese\_PRC\_CI\_AS、Chinese\_PRC\_CS\_AS、SQL\_Latin1\_General\_CP1\_CI\_AS、SQL\_Latin1\_General\_CP1\_CS\_AS、Chinese\_PRC\_BIN 。|MySQL/MariaDB实例：utf8mb4 ；SQL Server实例：Chinese\_PRC\_CI\_AS|字符集|
+|characterSetName|字符集，取值： -   MySQL/MariaDB实例：utf8、gbk、latin1、utf8mb4
+-   SQL Server实例：Chinese\_PRC\_CI\_AS、Chinese\_PRC\_CS\_AS、SQL\_Latin1\_General\_CP1\_CI\_AS、SQL\_Latin1\_General\_CP1\_CS\_AS、Chinese\_PRC\_BIN
+
+ | -   MySQL/MariaDB实例：utf8mb4
+-   SQL Server实例：Chinese\_PRC\_CI\_AS
+
+ |字符集|
 |accountName|字符串|webplus|数据库账号|
 |accountPassword|字符串|无|数据库账号密码|
-|category|实例系列，取值：Basic：基础版；HighAvailability：高可用版；AlwaysOn：集群版；Finance：金融版（仅中国站支持）。|无|数据库实例系列|
+|category|实例系列，取值： -   Basic：基础版
+-   HighAvailability：高可用版
+-   AlwaysOn：集群版
+-   Finance：金融版（仅中国站支持）
+
+ |无|数据库实例系列|
 
 ## 在应用进程中使用RDS {#section_fgq_mks_c34 .section}
 
