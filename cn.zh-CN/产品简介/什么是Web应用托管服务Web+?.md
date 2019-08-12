@@ -1,14 +1,14 @@
 # 什么是Web应用托管服务Web+? {#concept_186428 .concept}
 
-Web应用托管服务（Web App Service，简称Web+）是一个用来构建和部署应用的全托管式平台，您可以在Web+上部署Web类、移动类和API类应用。您可以使用Java语言编写并构建应用程序，在无需管理底层基础设施的情况下，即可简单、高效、安全和灵活地对应用进行部署、扩缩、变更配置和监控。
+Web应用托管服务（Web App Service，简称Web+）是一个用来构建和部署应用的全托管式平台，您可以在Web+上部署Web类、移动类和API类应用。您可以使用Java、Node.js、PHP、Go和Python语言编写并构建应用程序，在无需管理底层基础设施的情况下，即可简单、高效、安全和灵活地对应用进行部署、扩缩、变更配置和监控。
 
 ## 产品功能 {#section_7pv_u4l_p63 .section}
 
--   支持多种主流编程语言
+-   支持多种主流编程语言 
 
-    支持多种主流语言，包括已经支持的Java和即将支持的Python、Node.js、PHP、Ruby和Go，您也可以按需构建自己的语言运行时环境。
+    支持多种主流语言，包括已经支持的Java、Node.js、PHP、Go、Python和即将支持的Ruby，您也可以按需构建自己的语言运行时环境。
 
--   对外开放配置模板和API
+-   对外开放配置模板和API 
 
     开放的部署环境配置模板规范以及POP API，让您可以构建自己的开发工具和脚本集。
 
@@ -41,5 +41,5 @@ Web应用托管服务（Web App Service，简称Web+）是一个用来构建和�
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/160301/156048077846741_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/160301/156561585546741_zh-CN.jpg)
 
