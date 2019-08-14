@@ -31,31 +31,31 @@ go get github.com/go-sql-driver/mysql
 package main
 
 import (
-  &quot;database/sql&quot;
-  &quot;fmt&quot;
-  _ &quot;github.com/go-sql-driver/mysql&quot;
-  &quot;os&quot;
+  "database/sql"
+  "fmt"
+  _ "github.com/go-sql-driver/mysql"
+  "os"
 )
 
 func main() {
-  user := os.Getenv(&quot;WP_RDS_ACCOUNT_NAME&quot;)
-  passwd := os.Getenv(&quot;WP_RDS_ACCOUNT_PASSWORD&quot;)
-  host := os.Getenv(&quot;WP_RDS_CONNECTION_ADDRESS&quot;)
-  port := os.Getenv(&quot;WP_RDS_PORT&quot;)
+  user := os.Getenv("WP_RDS_ACCOUNT_NAME")
+  passwd := os.Getenv("WP_RDS_ACCOUNT_PASSWORD")
+  host := os.Getenv("WP_RDS_CONNECTION_ADDRESS")
+  port := os.Getenv("WP_RDS_PORT")
 
-  connStr := fmt.Sprintf(&quot;%s:%s@tcp(%s:%s)/?timeout=30s&quot;, user, passwd, host, port)
-  db, _ := sql.Open(&quot;mysql&quot;, connStr)
+  connStr := fmt.Sprintf("%s:%s@tcp(%s:%s)/?timeout=30s", user, passwd, host, port)
+  db, _ := sql.Open("mysql", connStr)
   defer db.Close()
 
-  sqlTxt := &quot;select 'OK' as result&quot;
+  sqlTxt := "select 'OK' as result"
   rows, _ := db.Query(sqlTxt)
   var result string
 
   for rows.Next(){
-    _ = rows.Scan(&amp;result)
+    _ = rows.Scan(&result)
   }
 
-  // output &quot;OK&quot;
+  // output "OK"
   fmt.Println(result)
 }
 ```
