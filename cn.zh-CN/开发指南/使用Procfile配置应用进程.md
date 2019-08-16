@@ -7,7 +7,7 @@
 如果需要使用Procfile，请在源包根目录中包含一个名为Procfile的文件，格式如下：
 
 ``` {#codeblock_6ma_is3_n0i}
-web: &lt;command&gt;
+web: <command>
 ```
 
 **说明：** 
