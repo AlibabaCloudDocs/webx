@@ -48,7 +48,7 @@ Symfony是一个基于MVC模式的面向对象的PHP框架，本文档将演示�
 
 4.  打开浏览器访问http://localhost:8000，进入Symfony示例应用首页。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161336/156594565555860_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161336/156620783955860_zh-CN.png)
 
 
 ## 步骤三：打包应用 {#section_ees_gc3_e72 .section}
@@ -66,21 +66,21 @@ Symfony是一个基于MVC模式的面向对象的PHP框架，本文档将演示�
     ```
 
 
-## 步骤三：部署应用至Web+ {#section_0zn_bea_zk7 .section}
+## 步骤四：部署应用至Web+ {#section_0zn_bea_zk7 .section}
 
 1.  登录 [Web+控制台](https://webplus.console.aliyun.com)，并在页面左上角选择所需地域。
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**新建**。
 3.  在**应用基本信息**页面选择**技术栈类型**为PHP，设置应用基本信息，设置完成后单击**下一步**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156594565555338_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156620784055338_zh-CN.png)
 
 4.  在**部署环境信息**页面设置**部署环境名称**，部署包来源选择**上传本地程序**，上传您刚打包的webplusdemo.zip，设置部署包版本后单击**完成创建**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156594565555348_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156620784055348_zh-CN.png)
 
 5.  在**完成创建**页面单击**查看该应用**或**完成创建**可进入**应用详情**页面。单击部署环境名称进入**部署环境详情**页面，然后单击**公网访问地址**右侧的链接进入应用首页。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156594565655358_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156620784055358_zh-CN.png)
 
 
 ## 更多信息 {#section_cfh_0ec_nqr .section}
