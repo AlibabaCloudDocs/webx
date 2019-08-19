@@ -2,7 +2,7 @@
 
 Web应用托管服务提供以下相关API接口。
 
-## 应用 {#section_ysp_qkp_b48 .section}
+## 应用 {#section_gxz_56t_yw5 .section}
 
 |API|描述|
 |---|--|
@@ -11,21 +11,21 @@ Web应用托管服务提供以下相关API接口。
 |[DescribeApplications](cn.zh-CN/API参考/应用/DescribeApplications.md)|调用DescribeApplications查询应用信息。|
 |[UpdateApplication](cn.zh-CN/API参考/应用/UpdateApplication.md)|调用UpdateApplication更新应用。|
 
-## 存储 {#section_iro_54h_kil .section}
+## 存储 {#section_x7l_mp4_idx .section}
 
 |API|描述|
 |---|--|
 |[CreateStorage](cn.zh-CN/API参考/存储/CreateStorage.md)|调用CreateStorage创建一个存储桶。|
 |[DescribeStorage](cn.zh-CN/API参考/存储/DescribeStorage.md)|调用DescribeStorage查询存储。|
 
-## 技术栈 {#section_l29_ixc_ylv .section}
+## 技术栈 {#section_iln_zkx_ayc .section}
 
 |API|描述|
 |---|--|
 |[DescribeCategories](cn.zh-CN/API参考/技术栈/DescribeCategories.md)|调用DescribeCategories查询平台类型。|
 |[DescribeStacks](cn.zh-CN/API参考/技术栈/DescribeStacks.md)|调用DescribeStacks查询技术栈。|
 
-## 部署包版本 {#section_gt6_ehb_dzz .section}
+## 部署包版本 {#section_blk_rta_0mp .section}
 
 |API|描述|
 |---|--|
@@ -33,7 +33,7 @@ Web应用托管服务提供以下相关API接口。
 |[DescribePkgVersions](cn.zh-CN/API参考/部署包版本/DescribePkgVersions.md)|调用DescribePkgVersions查询部署包版本。|
 |[CreatePkgVersion](cn.zh-CN/API参考/部署包版本/CreatePkgVersion.md)|调用CreatePkgVersion创建一个部署包版本。|
 
-## 部署环境 {#section_aks_0b6_sqq .section}
+## 部署环境 {#section_mbr_vv6_aj5 .section}
 
 |API|描述|
 |---|--|
@@ -55,15 +55,16 @@ Web应用托管服务提供以下相关API接口。
 |[DescribeGatherLogResult](cn.zh-CN/API参考/部署环境/DescribeGatherLogResult.md)|调用DescribeGatherLogResult查询一个收集日志的变更信息。|
 |[DescribeGatherStatsResult](cn.zh-CN/API参考/部署环境/DescribeGatherStatsResult.md)|调用DescribeGatherStatsResult查询一个收集诊断的变更信息。|
 
-## 配置模板 {#section_qfu_sa6_pwk .section}
+## 配置模板 {#section_gtw_9jj_8ye .section}
 
 |API|描述|
 |---|--|
 |[CreateConfigTemplate](cn.zh-CN/API参考/配置模板/CreateConfigTemplate.md)|调用CreateConfigTemplate从一个原有环境来创建一个配置模板。|
 |[DeleteConfigTemplate](cn.zh-CN/API参考/配置模板/DeleteConfigTemplate.md)|调用DeleteConfigTemplate删除一个配置模板。|
 |[DescribeConfigTemplates](cn.zh-CN/API参考/配置模板/DescribeConfigTemplates.md)|调用DescribeConfigTemplates查询配置模板。|
+|[UpdateConfigTemplate](cn.zh-CN/API参考/配置模板/UpdateConfigTemplate.md)|调用UpdateConfigTemplate来更新配置模板。|
 
-## 配置 {#section_dlt_s71_pcu .section}
+## 配置 {#section_kla_ykd_jv2 .section}
 
 |API|描述|
 |---|--|
@@ -72,7 +73,7 @@ Web应用托管服务提供以下相关API接口。
 |[DescribeConfigIndex](cn.zh-CN/API参考/配置/DescribeConfigIndex.md)|调用DescribeConfigIndex查询配置索引。|
 |[ValidateConfigSetting](cn.zh-CN/API参考/配置/ValidateConfigSetting.md)|调用ValidateConfigSetting来验证一个配置的设置有效性。|
 
-## 变更 {#section_hme_rfp_ouq .section}
+## 变更 {#section_bof_xic_ksy .section}
 
 |API|描述|
 |---|--|
@@ -83,7 +84,7 @@ Web应用托管服务提供以下相关API接口。
 |[DescribeChange](cn.zh-CN/API参考/变更/DescribeChange.md)|调用DescribeChanges查询给定环境内所有变更信息或给定变更ID的变更信息。|
 |[DescribeChanges](cn.zh-CN/API参考/变更/DescribeChanges.md)|调用DescribeChanges查询所有变更信息或给定环境内所有变更信息。|
 
-## 事件 {#section_u5z_k0h_doa .section}
+## 事件 {#section_zvt_tjb_rga .section}
 
 |API|描述|
 |---|--|
