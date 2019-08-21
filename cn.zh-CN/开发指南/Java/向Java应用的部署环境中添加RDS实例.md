@@ -1,6 +1,6 @@
 # 向Java应用的部署环境中添加RDS实例 {#concept_187796 .concept}
 
-您可以使用阿里云云数据库RDS的数据库实例来存储应用中需持久保存的数据。本文以给基于springboot框架开发的Java应用添加RDS MySQL数据库为例，展示如何为Java应用添加数据库并验证应用与数据库是否连接。
+您可以使用阿里云云数据库RDS的数据库实例来存储应用中需持久保存的数据。本文以给基于Spring Boot框架开发的Java应用添加RDS MySQL数据库为例，展示如何为Java应用添加数据库并验证应用与数据库是否连接。
 
 ## 环境变量 {#section_x78_dx5_fim .section}
 
