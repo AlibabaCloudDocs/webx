@@ -52,11 +52,11 @@ Beego是一个快速开发Go应用的HTTP框架，可以用来快速开发API、
 
 2.  进入项目目录，执行bee run。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156578269255403_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156657075255403_zh-CN.png)
 
 3.  打开浏览器，输入http://localhost:8080来访问项目。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156578269255404_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156657075355404_zh-CN.png)
 
 
 ## 步骤三：打包应用 {#section_y0g_uz0_k3p .section}
@@ -64,7 +64,7 @@ Beego是一个快速开发Go应用的HTTP框架，可以用来快速开发API、
 1.  在项目目录下新建Procfile来给Go应用指定启动命令，填写以下内容，并保存。
 
     ``` {#codeblock_tto_d7c_0vf}
-    web: ./webplusdemo
+    web: chmod +x webplusdemo; ./webplusdemo
     ```
 
 2.  使用bee工具来对打包工程。
@@ -82,15 +82,15 @@ Beego是一个快速开发Go应用的HTTP框架，可以用来快速开发API、
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**新建**。
 3.  在**应用基本信息**页面选择**技术栈类型**为Java，设置应用基本信息，设置完成后单击**下一步**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156578269355338_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075355338_zh-CN.png)
 
 4.  在**部署环境信息**页面设置**部署环境名称**，部署包来源选择**上传本地程序**，上传您刚打包的webplusdemo.zip，设置部署包版本后单击**完成创建**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156578269355348_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075355348_zh-CN.png)
 
 5.  在**完成创建**页面单击**查看该应用**或**完成创建**可进入**应用详情**页面。单击部署环境名称进入**部署环境详情**页面，然后单击**公网访问地址**右侧的链接进入应用首页。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156578269355358_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075455358_zh-CN.png)
 
 
 ## 常见问题 {#section_jig_d2e_i4m .section}
