@@ -17,46 +17,46 @@ Spring Boot是一个轻量级框架，可以用来轻松地创建独立的、生
 3.  对项目进行配置并完成创建。
     1.  在左侧导航栏选择**Spring Initializr**，然后单击**Next**。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156697146954605_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156699201854605_zh-CN.png)
 
     2.  设置工程信息，设置完成后单击**Next**。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697146955209_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699201955209_zh-CN.png)
 
     3.  在**Dependencies**页面单击**Web**并勾选**Spring Web Starter**，然后单击**Next**。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156697147155107_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156699201955107_zh-CN.png)
 
     4.  输入工程名称，并单击**Finish**完成创建。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156697147355109_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163218/156699201955109_zh-CN.png)
 
     5.  打开工程目录下的pom.xml文件，并在其中加入下图所示圈注部分的配置。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697147455215_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699201955215_zh-CN.png)
 
 
 ## 步骤二：配置应用 {#section_dbh_0aj_6m0 .section}
 
 1.  新建一个Controller类。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697150255220_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699201955220_zh-CN.png)
 
 2.  单击调试、Run或Debug按钮，启动应用。
 3.  在浏览器中输入localhost:8080来访问应用。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697152255221_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202055221_zh-CN.png)
 
 
 ## 步骤三：构建可执行JAR {#section_76a_k57_k1i .section}
 
 1.  单击右侧的**Maven**选项卡，在弹出的页面中单击**Execute Maven Goal**按钮。在弹出的对话框中输入package命令，然后单击**Execute**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697152355271_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202055271_zh-CN.png)
 
 2.  打包完成后可在工程的target目录下看到一个Jar包（如demo-0.0.1-SNAPSHOT.jar），接下来需要将这个应用程序部署到Web+应用中。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697152555274_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202055274_zh-CN.png)
 
 
 ## 步骤四：创建应用并完成部署 {#section_ptv_k64_tft .section}
@@ -65,15 +65,15 @@ Spring Boot是一个轻量级框架，可以用来轻松地创建独立的、生
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**新建**。
 3.  在**应用基本信息**页面选择**技术栈类型**为Java，设置应用基本信息，设置完成后单击**下一步**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697153358298_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202058298_zh-CN.png)
 
 4.  在**部署环境信息**页面设置**部署环境名称**，部署包来源选择**上传本地程序**，上传您刚打包的demo-0.0.1-SNAPSHOT.jar，设置部署包版本后单击**完成创建**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697153458299_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202058299_zh-CN.png)
 
 5.  在**完成创建**页面单击**查看该应用**或**完成创建**可进入**应用详情**页面。单击部署环境名称进入**部署环境详情**页面，然后单击**公网访问地址**右侧的链接进入应用首页。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156697153558300_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156699202058300_zh-CN.png)
 
 
 ## 更多信息 {#section_say_dd1_jqz .section}
