@@ -85,6 +85,9 @@ POST /pop/v1/wam/appEnv HTTP/1.1
 |Operations| | |变更操作列表
 
  |
+|Operation| | |变更操作列表
+
+ |
 |OperationDescription|String|Bind to VSwitch vsw-wz9gfawx1vxkimtj\*\*\*\*\*|操作描述信息
 
  |
