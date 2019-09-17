@@ -24,7 +24,7 @@ Linux
     ```
 
 
-MacOS
+macOS
 
 执行以下命令来使用brew来快速安装Python。
 
