@@ -6,7 +6,7 @@
 
 使用`wpctl configure`设置AK、SK和语言等全局信息。
 
-方法1：执行命令并创建一个名叫test的profile。（region id 信息可以到控制台确认目前可用的region）
+方法1：执行命令并创建一个名叫test的profile。（Region ID信息请参见[表 1](../../../../cn.zh-CN/产品简介/支持地域.md#table_7hc_s2a_iq1)。）
 
 ``` {#codeblock_ash_t52_reu}
 $ wpctl configure --profile test
