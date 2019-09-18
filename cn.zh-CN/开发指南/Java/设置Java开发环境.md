@@ -46,7 +46,7 @@ Linux
         ```
 
 
-Mac
+macOS
 
 1.  在[Oracle官网](https://www.oracle.com/technetwork/java/javase/downloads/index.html)下载安装包，例如jdk-8uversion-macosx-x64.dmg。
 2.  进入JDK安装包所在目录，双击安装包按照提示指令进行安装。
