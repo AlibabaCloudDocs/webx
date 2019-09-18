@@ -17,7 +17,7 @@ Linux
     ```
 
 
-MacOS 
+macOS 
 
 1.  在[PHP官网](https://www.php.net/downloads.php)下载安装包，例如php-7.3.8.tar.bz2 \(sig\)。
 2.  执行以下命令安装包：
