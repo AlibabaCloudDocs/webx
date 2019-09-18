@@ -27,7 +27,7 @@ Linux
     ```
 
 
-MacOS
+macOS
 
 执行以下命令使用brew来快速安装Go。
 
