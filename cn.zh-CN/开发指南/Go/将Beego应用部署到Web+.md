@@ -52,11 +52,11 @@ Beego是一个快速开发Go应用的HTTP框架，可以用来快速开发API、
 
 2.  进入项目目录，执行bee run。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156657075255403_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156886896155403_zh-CN.png)
 
 3.  打开浏览器，输入http://localhost:8080来访问项目。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156657075355404_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156886896155404_zh-CN.png)
 
 
 ## 步骤三：打包应用 {#section_y0g_uz0_k3p .section}
@@ -80,17 +80,14 @@ Beego是一个快速开发Go应用的HTTP框架，可以用来快速开发API、
 
 1.  登录 [Web+控制台](https://webplus.console.aliyun.com)，并在页面左上角选择所需地域。
 2.  在**概览**页**最近更新的部署环境**区域的右上角单击**新建**。
-3.  在**应用基本信息**页面选择**技术栈类型**为Java，设置应用基本信息，设置完成后单击**下一步**。
+3.  在**应用基本信息**页面选择**技术栈类型**为Go，设置应用基本信息，设置完成后单击**下一步**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075355338_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156886896161228_zh-CN.png)
 
 4.  在**部署环境信息**页面设置**部署环境名称**，部署包来源选择**上传本地程序**，上传您刚打包的webplusdemo.zip，设置部署包版本后单击**完成创建**。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075355348_zh-CN.png)
-
 5.  在**完成创建**页面单击**查看该应用**或**完成创建**可进入**应用详情**页面。单击部署环境名称进入**部署环境详情**页面，然后单击**公网访问地址**右侧的链接进入应用首页。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161338/156657075455358_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/163211/156886896161230_zh-CN.png)
 
 
 ## 常见问题 {#section_jig_d2e_i4m .section}
@@ -122,8 +119,9 @@ func (c *MainController) Head() {
 }
 ```
 
-## 更多信息 {#section_u01_ctv_nty .section}
+## 更多信息 { .section}
 
+-   在Web+控制台快速部署应用的视频演示请参见[在Web+控制台创建应用和部署环境](../DNWEBX19101931/ZH-CN_TP_519470_V3.dita)。
 -   在控制台部署应用的详细配置步骤请参见[部署应用](../DNICMS19100635/ZH-CN_TP_159334_V1.dita)。
 -   使用CLI完成应用创建和部署的操作请参见[在CLI快速部署应用](ZH-CN_TP_221972_V2.dita)。
 -   完成应用托管之后的应用的管理操作请参见[应用详情概览](../DNICMS19100635/ZH-CN_TP_163214_V1.dita)。
