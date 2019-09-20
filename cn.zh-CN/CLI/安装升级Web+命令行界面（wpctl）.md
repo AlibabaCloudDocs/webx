@@ -20,7 +20,7 @@ eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/cli/
 
 直接执行：`rm /usr/local/bin/wpctl`。
 
-## 在macOS上安装Webxctl {#section_vlc_6jp_evt .section}
+## 在macOS上安装wpctl {#section_vlc_6jp_evt .section}
 
 安装
 
@@ -38,11 +38,9 @@ eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/cli/
 
 直接执行：`rm /usr/local/bin/wpctl`。
 
-如果您使用的CLI版本低于wpctl兼容最低版本号，在使用wpctl时会提示：The CLI version is too old. Please upgrade the CLI，请执行wpctl upgrade来升级CLI。
-
 ## 问题反馈 {#section_e61_njp_lvz .section}
 
 如果您在使用Web+过程中有任何疑问，欢迎您扫描下面的二维码加入钉钉群进行反馈。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161244/156324894048830_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/161244/156896777748830_zh-CN.jpg)
 
