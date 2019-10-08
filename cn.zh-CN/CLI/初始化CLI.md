@@ -19,7 +19,7 @@ Default Language [zh|en] en: en
 
 Saving profile[test] ...Done.
 Configure Done!!!
-$ webxctl configure list
+$ wpctl configure list
 Profile   | Credential         | Valid   | Region           | Language
 --------- | ------------------ | ------- | ---------------- | --------
 test *    | AK:***rAk          | Valid   | cn-shenzhen      | en
